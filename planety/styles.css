@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    background-size: 100%;
+}
+.slunce {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/25/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819-02.jpg);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+}
+.merkur {
+    position: absolute;
+    margin:auto;
+    left: 49%;
+    top: 50%;
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: merkur 5s linear infinite;
+}
+@keyframes merkur {
+    from{transform:rotate(0deg)translateX(70px) rotate(0deg);}
+    to{transform:rotate(360deg)translateX(70px) rotate(-360deg);}
+}
+
+.venuse {
+    background-color: brown ;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 48%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    animation: venuse 5s linear infinite;
+}
+
+@keyframes venuse {
+    from{transform:rotate(0deg)translateX(115px) rotate(0deg);}
+    to{transform:rotate(360deg)translateX(115px) rotate(-360deg);}
+}
+
+.zeme {
+    background-color:green ;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: absolute;;
+    left: 47%;
+    top: 47%;
+    transform: translate(-50%, -50%);
+    animation: zeme 5s linear infinite;
+}
+
+@keyframes zeme {
+    from{transform:rotate(0deg)translateX(190px) rotate(0deg);}
+    to{transform:rotate(360deg)translateX(190px) rotate(-360deg);}
+}
+
