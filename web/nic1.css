@@ -1,34 +1,44 @@
 body {
-    background-color: rgb(169, 169, 197);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  label {
-    float:left;
-    width: 8em;
-    text-align: right;
-    margin-right: 0.5em;}
+  background-color: rgb(169, 169, 197);
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
   
-  fieldset {
+}
+label {
+  float:left;
+  width: 8em;
+  text-align: right;
+  margin-right: 0.5em;}
+
+fieldset {
+  padding: 1em;
+  border: 2px solid;
+  width: 10cm;
+  }
+legend {
+  padding: 2px 4px;
+  border: 1px solid;
+  font-weight: bold;
+}
+table {
+    color: black;
     padding: 1em;
     border: 1px solid;
-    width: 50em;
-    }
-  legend {
-    padding: 2px 4px;
-    border: 1px solid;
-    font-weight: bold;
-  }
-  table {
-      color: black;
-      padding: 1em;
-      border: 1px solid;
-      width: 50em;
-  }
-  table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-  
-  
+    width: 10cm;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.dva {
+    margin-top:5%;
+    margin-left:0%;
+}
+
+.jedna{
+    margin-top:1%;
+    margin-left:35%;
+}
+

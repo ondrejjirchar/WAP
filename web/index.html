@@ -4,34 +4,30 @@
 <meta charset="utf-8" />
 <link rel="stylesheet" href="nic1.css">
 </head>
-<body>
+<body class="jedna">
 <form id="form">
  <fieldset>
    <legend>Formulář</legend>
    <div>
      <label>Věk</label>
-     <input name="age" id="age" type="text" size="50" value="" />
+     <input name="age" id="age" type="number" size="50" value="" />
    </div>
    <div>
     <label>Počet knih</label>
-    <input name="book" id="book" type="text" size="50" value="" />
+    <input name="book" id="book" type="number" size="50" value="" />
   </div>
   <div>
     <label>&nbsp;</label>
-    <input type="submit" value="Odeslat" class="submit" />
+    <input type="submit" value="Odeslat" class="submit" id="button"  />
   </div>
  </fieldset>
 </form>
-    <table class="forma" id="table">
-     <thead>
-         <tr>
-          <th>Počet knih</th>
-          <th>Věk</th>
-         </tr> 
-     </thead>
-        <tbody>
-        </tbody>
-    </table>
+<div class="dva">
+<table id="table">
+  <tr class="ageRow"><td class="label">Věk</td><td class="value"></td></tr>
+  <tr class="bookRow"><td class="label">Počet knih</td><td class="value"></td></tr>
+</table>
+</div>
 <script src="js.js"></script>
 </body>
 </html>
